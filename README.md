@@ -14,5 +14,6 @@ From binary to decimal it shows us the number. From decimal to binary it shows u
 Position of the Dip switch is always from left to right (from 1 to 256, from pin 1 to pin 9.
 
 'c' clear the screen on mac, ios, linux and android. This feature has sense using the for loop that allow us to get 50 addresses (useful when changing addresses on several fixtures at once).
-windows users must change "clear" for "cls":
+
+Windows users must change "clear" for "cls":
 `os.system("cls")`
