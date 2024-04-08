@@ -5,8 +5,10 @@ diegoHERNANDO_2020
 www.diegohernando.es
 '''
 
+# Only for cleaning the screen in the 50 times loop
 import os
 
+# Calculate powers of 2
 def potencias(x):
     powers = []
     i = 1
@@ -16,9 +18,10 @@ def potencias(x):
         i <<= 1
     return powers
 
+# Decimal to binary
 def dec_to_bin(x):
     return int(bin(x)[2:])
-
+# Binary to decimal
 def bin_to_dec(x):
     return int(x,2)
     
