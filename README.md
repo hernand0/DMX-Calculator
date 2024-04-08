@@ -1,4 +1,4 @@
-### A simple python binary calculator to use DMX Address Dip Switches
+### A simple python binary calculator to use DMX Dip Switches
 It can convert binary to decimal and vice versa.
 
 A dip switch allows us to enter a DMX Address on our fixtures. Is a simple binary way to get any number. When a pin is ON it counts as a 1, when it is OFF it counts as a 0 (Activated or deactivated).
