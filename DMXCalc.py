@@ -28,18 +28,18 @@ def bin_to_dec(x):
 print("\ndH_ DMX DipSwitch Calculator\n")
 
 for r in range(50):
-    t = input("Pin Position (0) | Address (1): ")
+    t = input("\nPin Position (0) | Address (1): ")
     if (t == '0'):
         h = input("\nFrom 1 to 9 (1 to 256)\nON = 1\nFill with zeroes if needed\nPosition of pins: ")
         h = h[0:9]
         j = h[::-1]
-        print(bin_to_dec(j))
+        print('\nDMX Address:',bin_to_dec(j))
     elif (t == '1'):
         h = int(input("\nDMX Address: "))
         z = str(dec_to_bin(h))
         y = z[::-1]
-        print(potencias(h))
-        print(y)
+        print('\nPowers of 2:', potencias(h))
+        print('Pin Position:', y)
     elif(t == 'c'):
         os.system("clear")
     else:
