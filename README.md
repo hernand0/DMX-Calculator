@@ -9,7 +9,7 @@ Because each pin has a value when it is switch to ON position from 1 to 256 --> 
 ###  How it works?
 When the script runs, it asks us for what do you want to convert, from binary (positions of dipswitch pins) to decimal (number) or vice versa.
 
-`Pin Position (0) | Address (1):`
+`Pin Position (0) | Address (1)`
 
 If 0 is selected, write the positions of the pins as you see them in the dip switch, from 1 to 9 considering the ON position as a 1.
 
@@ -19,6 +19,8 @@ Output:
 
 `DMX Address: 329`
 
+
+Then, it repeats again the first prompt `Pin Position (0) | Address (1)` useful if you are changing several fixtures addresses.
 
 If 1 is selected, write the address you want to assign to the dip switch.
 
