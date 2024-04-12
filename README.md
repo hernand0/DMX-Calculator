@@ -12,7 +12,7 @@ When the script runs, it asks us for what do you want to convert, from binary (p
 `Pin Position (0) | Address (1)`
 
 If 0 is selected, write the positions of the pins as you see them in the dip switch, from 1 to 9 considering the ON position as a 1.
-```python
+```c++
 Position of Pins: 100100101
 
 OUTPUT:
@@ -23,7 +23,7 @@ DMX Address: 329
 Then, it repeats again the first prompt `Pin Position (0) | Address (1)` useful if you are changing several fixtures addresses.
 
 If 1 is selected, write the address you want to assign to the dip switch.
-```python
+```c++
 DMX Address: 329
 
 OUTPUT:
