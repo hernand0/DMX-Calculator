@@ -12,26 +12,26 @@ When the script runs, it asks us for what do you want to convert, from binary (p
 `Pin Position (0) | Address (1)`
 
 If 0 is selected, write the positions of the pins as you see them in the dip switch, from 1 to 9 considering the ON position as a 1.
+```
+Position of Pins: 100100101
 
-`Position of Pins: 100100101`
+OUTPUT:
 
-Output:
-
-`DMX Address: 329`
-
+DMX Address: 329
+```
 
 Then, it repeats again the first prompt `Pin Position (0) | Address (1)` useful if you are changing several fixtures addresses.
 
 If 1 is selected, write the address you want to assign to the dip switch.
+```
+DMX Address: 329
 
-`DMX Address: 329`
+OUTPUT:
 
-Output:
+Powers of 2: [1, 8, 64, 256]
 
-`Powers of 2: [1, 8, 64, 256]`
-
-`Pin Position: 100100101`
-
+Pin Position: 100100101
+```
 
 'c' clear the screen on mac, ios, linux and android. This feature has sense using the for loop that allow us to get 50 addresses (useful when changing addresses on several fixtures at once).
 
